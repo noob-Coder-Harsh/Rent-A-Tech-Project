@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./cart.css" />
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Cart</title>
+  </head>
+
+  <body>
+    <section id="header">
+      <h4>Rent-A-Tech</h4>
+
+      <div>
+          <ul id="navbar">
+              <li><a id="active" href="../Home/home.html">Home</a></li>
+              <li><a id="active" href="../AboutUs/aboutus.html">About</a></li>
+              <li><a id="active" href="../Products/products.html">Products</a></li>
+              <li><a id="active" href="../Blog/blog.html">Blog</a></li>
+              <li><a id="active" href="../Contact/contact.html">Contact</a></li>
+              <li><a id="active" class="active" href="../Cart/cart.html">Cart</a></li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+          <a href="../index.html">
+            <button id="logout" class="btn btn-outline-success">Logout</button>
+          </a>
+        </div>
+
+  </section>
+
+    <!-- main div -->
+    <div class="main">
+      <!-- header -->
+      <div class="container">
+        <div class="row row-1">
+          <div class="col-md-6">
+            <img
+              class="header-img"
+              src="../img/cart/cart.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6">
+            <h1>Welcome! <span id="s-name"></span></h1>
+            <p>
+              You can view your cart here. You can also remove items from your
+              cart. You can also place your order from here.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- cart -->
+      <div class="container cart">
+        <h2 class="text-center card-head">Your Cart</h2>
+        <!-- cart details -->
+        <div class="container cart-c" id="cart-c">
+
+          <hr />
+
+          <div class="row">
+            <div class="col-2">Total</div>
+            <div class="col"></div>
+            <div class="col" id="c-total"></div>
+            <div class="col"></div>
+          </div>
+
+          <div class="checkout">
+            <button class="btn btn-outline-success" id="checkout-btn">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+          <h4>Signup for Newsletters</h4>
+          <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+      </div>
+      <div class="form">
+          <input type="text" placeholder="Your email address">
+          <button class="normal">Signup</button>
+      </div>
+  </section>
+
+  <footer class="section-p1">
+      <div class="col">
+          <img src="../img/logo.png" alt="">
+          <h3>Rent-A-Tech</h3>
+          <div class="follow">
+              <h4>Follow</h4>
+              <div class="icon">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-facebook"></i>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <h4>Contact</h4>
+          <p><strong>Address: </strong> 562 Wellington Road, street32, San Francisco</p>
+          <p><strong>Phone: </strong>+91 9871123423/ +91 09871123424</p>
+          <p><strong>Phone: </strong>10:00-18:00, Mon-Sat</p>
+
+      </div>
+
+      <div class="col">
+          <h4>About</h4>
+          <a href="#">About us</a>
+          <a href="#">Information</a>
+          <a href="#">Return Policy</a>
+          <a href="#">Terms&Condition</a>
+          <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+          <h4>My Account</h4>
+          <a href="#">Sign in</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+      </div>
+
+      <div class="col">
+          <p>Secured Payment Gateways</p>
+          <img src="../img/pay/pay.png" alt="">
+      </div>
+
+      <!-- <div class="copyright">
+          <p>&copy; 2024 Rent-A-Tech. All rights reserved.</p>
+      </div> -->
+
+  </footer>
+
+    <script src="../productsData.js"></script>
+    <script src="./cart.js"></script>
+  </body>
+</html>

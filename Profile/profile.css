@@ -1,0 +1,196 @@
+.navbar {
+    margin-bottom: 40px;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #007180;
+  }
+  
+  .navbar .navbar-nav {
+    width: 500px;
+    justify-content: center;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #484848;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #3c237f;
+  }
+  
+  .navbar .navbar-nav #active {
+    font-size: 19px;
+    font-weight: 600;
+    color: #007180;
+    text-decoration: underline;
+  }
+  
+  .navbar .btn {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #007180;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 2.5rem;
+    padding: 0 1.8rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .navbar .btn:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: 0.1s;
+    transform: scale(1.05);
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .header-img {
+    width: 500px;
+    border-radius: 10px;
+  }
+  
+  .row-1 {
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .row-1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #007180;
+  }
+  
+  .row-1 p {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .profile {
+    margin-top: 40px;
+  }
+  
+  .profile .card-head {
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #007180;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .header-img {
+      width: 300px;
+    }
+  
+    .row-1 h1 {
+      font-size: 30px;
+    }
+  
+    .row-1 p {
+      font-size: 15px;
+    }
+  
+    .card-head {
+      font-size: 25px;
+    }
+  
+    .card .card-title {
+      font-size: 25px;
+    }
+  
+    .card .card-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  
+  .info {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #p-data {
+    width: fit-content;
+  }
+  
+  .info h5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #007180;
+    margin-bottom: 10px;
+  }
+  
+  .info span {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #484848;
+    font-weight: 500;
+  }
+  
+  .info .edit-btn {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #007180;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 2rem;
+    padding: 0 1.8rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  
+  .info .edit-btn:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: 0.1s;
+    transform: scale(1.05);
+  }
+  
+  @media screen and (max-width: 770px) {
+    .card {
+      margin-bottom: 30px;
+    }
+  
+    .products .p-card {
+      width: 300px;
+    }
+  }

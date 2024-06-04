@@ -1,0 +1,130 @@
+.navbar {
+    margin-bottom: 40px;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #007180
+  }
+  
+  .navbar .btn {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #007180;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 2.5rem;
+    padding: 0 1.8rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .navbar .btn:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: 0.1s;
+    transform: scale(1.05);
+  }
+  
+  .navbar .btn a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  
+  .main .card {
+    border-radius: 7px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    width: 35rem;
+  }
+  
+  .main .card .card-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 550;
+    color: #007180;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .main .card .l-form {
+    margin-bottom: 20px;
+  }
+  
+  .main .card .l-form .form-label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .main .card .l-form .b-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .main .card .l-form .b-div .btn {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #007180;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 3rem;
+    padding: 0 1.6rem;
+    width: 160px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .main .card .l-form .b-div .btn:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: 0.1s;
+    transform: scale(1.05);
+  }
+  
+  .main .card .reg {
+    text-align: center;
+    text-decoration: none;
+    color: #007180;
+  }
+  
+  @media screen and (max-width: 670px) {
+    .main {
+      height: 100%;
+    }
+  
+    .main .card {
+      width: 70%;
+    }
+  
+    .main .card .card-title {
+      font-size: 25px;
+    }
+  }
+  
